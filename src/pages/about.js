@@ -1,8 +1,7 @@
 import React from "react"
-import icon from "../images/icon.png"
 import { Link } from "gatsby"
 
-const home = () => {
+const about = () => {
     return (
         <div>
             <style>
@@ -31,14 +30,11 @@ const home = () => {
         `}
             </style>
             <div className="header">
-                <Link to="/">Home</Link>/
-                <Link to="/about">About</Link>
+                <Link to="/">Home</Link>
             </div>
             <div className="body">
                 <div style={{ textAlign: 'center' }}>
-                <h1>Home Page</h1>
-                <p>Welcome hello world</p>
-                <img src={icon} alt="Icon" style={{height:'100px',width:'100px'}} />
+                  <h1> About Page</h1> 
                 </div>
             </div>
             <div className="footer">
@@ -47,4 +43,4 @@ const home = () => {
         </div>
     )
 }
-export default home
+export default about
